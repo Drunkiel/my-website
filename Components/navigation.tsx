@@ -15,9 +15,15 @@ function Navigation() {
       </div>
 
       <div className={styles.navigation}>
-        <Link href="#">Ala</Link>
-        <Link href="#">Ala</Link>
-        <Link href="#">Ala</Link>
+        <Link href="#">
+          <a className={styles.link}>Home</a>
+        </Link>
+        <Link href="#">
+          <a className={styles.link}>Games</a>
+        </Link>
+        <Link href="#">
+          <a className={styles.link}>Contact</a>
+        </Link>
       </div>
     </div>
   );

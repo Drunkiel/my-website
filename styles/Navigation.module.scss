@@ -15,8 +15,16 @@
   left: 28em;
   width: 70%;
   height: 100%;
-  background-color: aqua;
   color: aliceblue;
   text-align: center;
-  padding-top: 2.5em;
+  padding-top: 1em;
+}
+
+.link {
+  padding: 0 0 0 1em;
+  font-size: 48px;
+
+  &:hover {
+    color: #d6ab51;
+  }
 }
