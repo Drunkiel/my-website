@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ReactChild } from "react";
 import styles from "../styles/Navigation.module.scss";
 
-function Navigation() {
+function Navigation(props: { children: ReactChild }) {
   return (
     <div className={styles.container}>
       <div className={styles.images}>
@@ -25,6 +26,7 @@ function Navigation() {
           <a className={styles.link}>Contact</a>
         </Link>
       </div>
+      {props.children}
     </div>
   );
 }
